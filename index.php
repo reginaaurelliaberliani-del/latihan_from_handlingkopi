@@ -31,7 +31,10 @@ include "header.php";
         ?>
     </div>
 </section>
+<<<<<<< HEAD
 
 <?php include "from_pendaftaran.php"; ?>
+=======
+>>>>>>> 6589201bbf663923aca1b344d483a4b462ea6f12
 </body>
 </html>

@@ -1,4 +1,5 @@
 <?php
+<<<<<<< HEAD
 session_start();
 
 $kelasList = [
@@ -70,3 +71,18 @@ if (isset($_POST['daftar'])) {
 
 header("Location: index.php");
 exit;
+=======
+
+$host = "localhost";
+$user = "root";
+$pass = "";
+$db   = "regi_latihan_be";
+
+$conn = mysqli_connect($host, $user, $pass, $db);
+
+if (!$conn) {
+    die("Koneksi database gagal: " . mysqli_connect_error());
+}
+
+?>
+>>>>>>> 6589201bbf663923aca1b344d483a4b462ea6f12

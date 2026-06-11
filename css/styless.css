@@ -20,6 +20,14 @@ section {
   border-radius: 10px;
 }
 
+section.regis {
+  max-width: 1600px;
+  margin: 25px auto;
+  background: white;
+  padding: 25px;
+  border-radius: 10px;
+}
+
 .cards {
   display: flex;
   gap: 15px;
@@ -37,6 +45,7 @@ section {
 
 input,
 select,
+textarea,
 button {
   width: 100%;
   padding: 10px;
@@ -74,4 +83,70 @@ button:hover {
   background: #fff7d6;
   padding: 15px;
   border-radius: 8px;
+}
+
+/* ADMIN */
+
+h1,
+h2,
+h3 {
+  max-width: 1000px;
+  margin: 25px auto 15px;
+}
+
+body > a {
+  display: inline-block;
+  margin-left: calc((100% - 1000px) / 2);
+  margin-bottom: 15px;
+}
+
+form {
+  max-width: 1000px;
+  margin: 0 auto 25px;
+  background: white;
+  padding: 25px 25px 0 25px;
+  border-radius: 10px;
+}
+
+table {
+  width: 100%;
+  margin: 25px auto;
+  border-collapse: collapse;
+  background: white;
+}
+
+th,
+td {
+  border: 1px solid #ddd;
+  padding: 12px;
+  text-align: left;
+}
+
+th {
+  background: #4b2e1f;
+  color: white;
+}
+
+tr:nth-child(even) {
+  background: #f8f3ef;
+}
+
+td a {
+  display: inline-block;
+  margin-right: 8px;
+}
+
+@media (max-width: 1050px) {
+  table,
+  form,
+  h1,
+  h2,
+  h3 {
+    width: calc(100% - 40px);
+    max-width: calc(100% - 40px);
+  }
+
+  body > a {
+    margin-left: 20px;
+  }
 }

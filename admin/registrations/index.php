@@ -10,7 +10,7 @@ $query = mysqli_query($conn, $sql);
 <html>
 <head>
     <title>Data Course</title>
-    <link rel="stylesheet" href="../../css/style.css">
+    <link rel="stylesheet" href="../../css/styless.css">
 </head>
 <body>
     <section class="regis">

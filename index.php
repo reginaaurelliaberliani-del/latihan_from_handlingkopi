@@ -32,6 +32,6 @@ include "header.php";
     </div>
 </section>
 
-<?php include "frm_pendaftaran.php"; ?>
+<?php include "from_pendaftaran.php"; ?>
 </body>
 </html>

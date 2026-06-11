@@ -1,4 +1,7 @@
 <?php
+if (session_status() === PHP_SESSION_NONE) {
+    session_start();
+}
 include "koneksi.php";
 ?>
 
@@ -14,4 +17,8 @@ include "koneksi.php";
 <header>
     <h1>Kelas Kopi Online Sabda Setia</h1>
     <p>Belajar menyeduh kopi dan membangun bisnis kopi rumahan</p>
+
+    <nav>
+        <a href="index.php">Beranda</a>
+        <a href="login.php">Login Admin</a> </nav>
 </header>
